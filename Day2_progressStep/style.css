@@ -14,11 +14,21 @@ body{
     background-color: #f6f7fb;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-direction: column;
     height: 100vh;
     overflow: hidden;
     margin:0;
 
+}
+
+.heading{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 20rem;
+    margin-top: 2rem;
+    transition: all 2s ease;
+    
 }
 
 .container{
@@ -90,6 +100,7 @@ body{
     padding: .5rem 2rem;
     font-size: 1rem;
     transition: all 1s ease;
+    margin: 5px;
     /* transition: disabled 1s ease; */
 }
 

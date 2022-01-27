@@ -1,8 +1,13 @@
 const circles = document.querySelectorAll('.circle');
 const line = document.querySelector('.progress');
 const nextBtn = document.querySelector('#next');
-const prevBtn = document.querySelector('#prev')
+const prevBtn = document.querySelector('#prev');
 var activeCircle  = 1;
+const heading= document.querySelector('.heading');
+
+window.onload = function(){
+    heading.style.color="#3498db";
+}
 
 function next() {
     activeCircle++;
