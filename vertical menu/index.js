@@ -12,3 +12,4 @@ for(let i=0;i<list.length;i++){
         bg.style.backgroundColor = colour;
     }
 }
+console.log("lsit is ",list);

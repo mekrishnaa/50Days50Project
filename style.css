@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    transition:0.5s;
+}
+
+.container{
+    position: relative;
+    max-height: 100vh;
+    min-height: 560px;
+    padding:10px;
+    width: 200px;
+    background: rgb(61, 47, 47);
+    border-radius: 35px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+}
+
+.container ul {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.container ul li{
+    position:relative;
+    list-style:none;
+    z-index: 1;
+
+}
+
+.container ul li a{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color:#333;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.container ul li a span{
+    position: relative;
+    display: block;
+    background-color: rgb(251, 93, 93);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding:5px;
+    line-height: calc(320px / 8);
+    text-align: center;
+    transition: 0.5s;
+}
+.container ul li a span:nth-child(1){
+    margin-top:10px;
+}
